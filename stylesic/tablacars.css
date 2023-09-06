@@ -1,0 +1,49 @@
+
+body{
+    background-image: url(./imgtabla.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+
+}
+table {
+    margin:auto;
+    margin-top: 50px;
+    border-collapse:collapse;
+    width: 80%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+th, td {
+    border: 2px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+h1{
+    display:flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+th {
+    height: 40px;
+    background-color: green;
+    color: white;
+}
+
+td{
+    width:40px;
+    background-color: rgb(96, 100, 96);
+    color: white;
+}
+
+
