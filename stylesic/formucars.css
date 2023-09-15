@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url(./_c32d727e-5612-4935-993d-840d46d1c167.jpg);
+    background-image: url(./fondoformulario.jpg);
     background-repeat: no-repeat;
     background-size: 100% 120%;
 }
@@ -8,6 +8,7 @@ h1, h2{
     display:flex;
     justify-content: center;
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 
 form {
@@ -15,6 +16,7 @@ form {
     margin: auto;
     width: 50%;
     text-decoration:blink;
+    color: white;
 }
 
 input[type=text], input[type=number], input[type=email], textarea {
@@ -27,7 +29,7 @@ input[type=text], input[type=number], input[type=email], textarea {
     border-radius: 8px;
 }
 a{
-    color: black;
+    color: white;
     text-decoration: none;
     display: flex;
     justify-content: center;
@@ -54,4 +56,10 @@ input[type=submit]:hover {
     border-radius: 4px;
     background-color: #45a049;
     color: black;
+}
+div{
+    backdrop-filter: blur(10px);
+    margin-left: 380px;
+    margin-right: 380px;
+    border-radius: 50px;
 }

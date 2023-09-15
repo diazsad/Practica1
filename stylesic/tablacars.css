@@ -1,6 +1,6 @@
 
 body{
-    background-image: url(./imgtabla.jpg);
+    background-image: url(./fondotabla.jpg);
     background-repeat: no-repeat;
     background-size:100%;
 
@@ -46,4 +46,12 @@ td{
     color: white;
 }
 
-
+div{
+    margin-top: 120px;
+    margin-left: 200px;
+    margin-right: 200px;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    padding-bottom: 30px;
+    border-radius: 50px;
+}
